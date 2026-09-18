@@ -40,7 +40,12 @@ function LoginPageInner() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState<string | null>(null);
+  // `/auth/callback` sends the visitor back here with ?error=... when an
+  // emailed link can't be exchanged (expired, already used, opened in
+  // another browser). Without this the bounce looks like a plain logout.
+  const [error, setError] = useState<string | null>(
+    searchParams.get("error")
+  );
   const [loading, setLoading] = useState(false);
   const supabase = createClient();
 

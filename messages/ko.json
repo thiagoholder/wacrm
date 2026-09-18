@@ -1926,6 +1926,21 @@
     "sending": "전송 중...",
     "sendLink": "재설정 링크 보내기"
   },
+  "ResetPasswordPage": {
+    "title": "새 비밀번호 설정",
+    "desc": "{min}자 이상의 비밀번호를 입력하세요",
+    "passwordLabel": "새 비밀번호",
+    "confirmLabel": "새 비밀번호 확인",
+    "saving": "저장 중...",
+    "save": "비밀번호 변경",
+    "checking": "링크를 확인하는 중...",
+    "invalidTitle": "만료되었거나 이미 사용된 링크입니다",
+    "invalidDesc": "재설정 링크는 한 번만 사용할 수 있으며 1시간 후 만료됩니다. 새 링크를 요청하세요.",
+    "requestNew": "새 링크 요청",
+    "tooShort": "비밀번호는 최소 {min}자 이상이어야 합니다",
+    "mismatch": "새 비밀번호와 확인이 일치하지 않습니다",
+    "backToSignIn": "로그인으로 돌아가기"
+  },
   "JoinPage": {
     "fail": {
       "notFoundTitle": "초대를 찾을 수 없습니다",
