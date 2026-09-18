@@ -1926,6 +1926,21 @@
     "sending": "Sending...",
     "sendLink": "Send reset link"
   },
+  "ResetPasswordPage": {
+    "title": "Set a new password",
+    "desc": "Choose a password with at least {min} characters",
+    "passwordLabel": "New password",
+    "confirmLabel": "Confirm new password",
+    "saving": "Saving...",
+    "save": "Update password",
+    "checking": "Checking your link...",
+    "invalidTitle": "Link expired or already used",
+    "invalidDesc": "Reset links work once and expire after an hour. Request a new one to continue.",
+    "requestNew": "Request a new link",
+    "tooShort": "Password must be at least {min} characters",
+    "mismatch": "New password and confirmation do not match",
+    "backToSignIn": "Back to sign in"
+  },
   "JoinPage": {
     "fail": {
       "notFoundTitle": "Invite not found",

@@ -1908,6 +1908,21 @@
     "sending": "Enviando...",
     "sendLink": "Enviar enlace de restablecimiento"
   },
+  "ResetPasswordPage": {
+    "title": "Establece una nueva contraseña",
+    "desc": "Elige una contraseña de al menos {min} caracteres",
+    "passwordLabel": "Nueva contraseña",
+    "confirmLabel": "Confirma la nueva contraseña",
+    "saving": "Guardando...",
+    "save": "Actualizar contraseña",
+    "checking": "Comprobando tu enlace...",
+    "invalidTitle": "Enlace caducado o ya usado",
+    "invalidDesc": "Los enlaces de restablecimiento sirven una sola vez y caducan en una hora. Solicita uno nuevo para continuar.",
+    "requestNew": "Solicitar un enlace nuevo",
+    "tooShort": "La contraseña debe tener al menos {min} caracteres",
+    "mismatch": "La nueva contraseña y la confirmación no coinciden",
+    "backToSignIn": "Volver a iniciar sesión"
+  },
   "JoinPage": {
     "fail": {
       "notFoundTitle": "Invitación no encontrada",
